@@ -18,6 +18,15 @@ body {
   text-align: center;
   color: #fff;
 }
+
+button {
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
 a {
   text-decoration: none;
 }
@@ -67,4 +76,8 @@ ul {
 .page-contacts .link:hover,
 .page-contacts .link:focus {
   color: #404bbf;
+}
+
+.section-footer {
+  background-color: #2e2f42;
 }
