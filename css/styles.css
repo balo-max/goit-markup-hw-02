@@ -122,7 +122,7 @@ body {
 .section-team {
   background-color: #f4f4fd;
 }
-.page-team {
+.page-team .team-item {
   background-color: #ffffff;
 }
 /* =========== /SECTION OUR TEAM STYLES ===========*/
