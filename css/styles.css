@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -8,48 +7,18 @@ body {
   background-color: #ffffff;
 }
 
-.section-hero {
-  background-color: #2e2f42;
-}
-.page-title {
+/* Hearder */
+
+.logo {
+  font-family: "Raleway";
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-
-button {
-  background-color: #4d5ae5;
-  cursor: pointer;
-}
-button:hover,
-button:focus {
-  background-color: #404bbf;
-}
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
+span {
   color: #2e2f42;
 }
 
@@ -71,18 +40,98 @@ ul {
   color: #404bbf;
 }
 
-.page-contacts .link {
-  font-weight: 400;
+.page-contacts {
+  font-style: normal;
+}
+.list-contacts .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.page-contacts .link:hover,
-.page-contacts .link:focus {
+.list-contacts .link:hover,
+.list-contacts .link:focus {
   color: #404bbf;
 }
 
+/* Hero */
+
+.section-hero {
+  background-color: #2e2f42;
+}
+.page-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.button-service {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.button-service,
+.button-service {
+  background-color: #404bbf;
+}
+
+/* Titles */
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
+/* section our team  */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+.team {
+  background-color: #ffffff;
+}
+
+/* footer */
+
 .section-footer {
   background-color: #2e2f42;
+}
+.section-footer .section-text {
+  color: #f4f4fd;
+}
+.section-footer,
+span {
+  color: #f4f4fd;
+}
+
+/* Other*/
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
 }
