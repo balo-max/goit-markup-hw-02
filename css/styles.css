@@ -1,3 +1,19 @@
+/* =========== COMMON STYLES ===========*/
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+/* =========== /COMMON STYLES ===========*/
+
+/* =========== BODY STYLES ===========*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -6,11 +22,11 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+/* =========== /BODY STYLES ===========*/
 
-/* Hearder */
-
-.logo {
-  font-family: "Raleway";
+/* =========== HEADER STYLES ===========*/
+.page-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -18,25 +34,25 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-span {
+.span-logo-header {
   color: #2e2f42;
 }
 
-.page-list .link {
+.page-menu .menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.page-list {
+.page-menu {
   background-color: #ffffff;
 }
-.page-list .link:hover,
-.page-list .link:focus {
+.page-menu .menu-link:hover,
+.page-menu .menu-link:focus {
   color: #404bbf;
 }
-.page-list .link:active {
+.page-menu .menu-link:active {
   color: #404bbf;
 }
 
@@ -53,8 +69,9 @@ span {
 .list-contacts .link:focus {
   color: #404bbf;
 }
+/* =========== /HEADER STYLES ===========*/
 
-/* Hero */
+/* =========== SECTION HERO STYLES ===========*/
 
 .section-hero {
   background-color: #2e2f42;
@@ -64,7 +81,7 @@ span {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 .button-service {
@@ -80,9 +97,9 @@ span {
 .button-service {
   background-color: #404bbf;
 }
+/* =========== /SECTION HERO STYLES ===========*/
 
-/* Titles */
-
+/* =========== TITLES STYLES ===========*/
 .title {
   font-weight: 500;
   font-size: 20px;
@@ -99,39 +116,25 @@ span {
   text-align: center;
   color: #2e2f42;
 }
+/* =========== /TITLES STYLES ===========*/
 
-/* section our team  */
-
+/* =========== SECTION OUR TEAM STYLES ===========*/
 .section-team {
   background-color: #f4f4fd;
 }
 .team {
   background-color: #ffffff;
 }
+/* =========== /SECTION OUR TEAM STYLES ===========*/
 
-/* footer */
-
+/* =========== FOOTER STYLES ===========*/
 .section-footer {
   background-color: #2e2f42;
 }
 .section-footer .section-text {
   color: #f4f4fd;
 }
-.section-footer,
-span {
+.span-logo-footer {
   color: #f4f4fd;
 }
-
-/* Other*/
-a {
-  text-decoration: none;
-}
-
-ul,
-ol {
-  list-style-type: none;
-}
-
-button {
-  cursor: pointer;
-}
+/* =========== /FOOTER STYLES ===========*/
